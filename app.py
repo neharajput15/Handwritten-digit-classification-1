@@ -8,7 +8,7 @@ import cv2
 from tensorflow.keras.models import load_model
 
 st.title("Handwritten Digit Recognition")
-model = load_model("digit-model.keras", compile = False)
+model = load_model("digit_model-1.keras", compile = False)
 
 def is_canvas_empty(img_rgba, threshold=10):
     if img_rgba is None:
